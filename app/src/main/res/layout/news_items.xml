@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="5dp"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:src="@drawable/ic_newspaper"
+                android:id="@+id/item_image_view"
+                android:padding="5dp"/>
+            <TextView
+                android:maxLines="2"
+                android:ellipsize="end"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/item_image_view"
+                android:layout_toRightOf="@+id/item_image_view"
+                android:text="@string/news_title"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:id="@+id/news_title_tv"
+                android:layout_margin="5dp"
+                android:padding="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/item_image_view"
+                android:layout_toRightOf="@+id/item_image_view"
+                android:layout_toEndOf="@id/item_image_view"
+                android:textSize="8sp"
+                android:text="@string/news_time"
+                android:textColor="@color/black"
+                android:padding="5dp"
+                android:layout_margin="5dp"
+                android:id="@+id/news_time_tv"
+                 />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

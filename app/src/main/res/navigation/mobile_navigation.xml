@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_politics">
+
+    <fragment
+        android:id="@+id/navigation_politics"
+        android:name="com.example.newsapp.ui.politics.PoliticsNewsFragment"
+        android:label="@string/politics_news"
+        tools:layout="@layout/fragment_politics_news" />
+
+    <fragment
+        android:id="@+id/navigation_sports"
+        android:name="com.example.newsapp.ui.sports.SportNewsFragment"
+        android:label="@string/sports_news"
+        tools:layout="@layout/fragment_sport_news" />
+
+    <fragment
+        android:id="@+id/navigation_technology"
+        android:name="com.example.newsapp.ui.technology.TechnologyNewsFragment"
+        android:label="@string/technology_news"
+        tools:layout="@layout/fragment_technology_news" />
+</navigation>

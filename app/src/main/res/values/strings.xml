@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">News App</string>
+    <string name="politics_news">News</string>
+    <string name="sports_news">Sports</string>
+    <string name="technology_news">Tech</string>
+    <string name="news_title">News Title</string>
+    <string name="news_time">News Time</string>
+    <string name="search">search</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="user_name">User Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="news_viewer">News viewer</string>
+    <string name="sign_out">Sign Out</string>
+</resources>
